@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 # Load the data
-df = pd.read_csv("data/tmdb-movies.csv")
+df = pd.read_csv("tmdb-movies.csv")
 
 # Data Cleaning
 to_drop = ["id", "imdb_id", "cast", "homepage", "tagline", "keywords", "overview"]
